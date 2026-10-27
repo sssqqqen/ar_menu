@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "category": "Закуски",
+    "name": "Брускетта с томатами",
+    "description": "Хрустящий хлеб, томаты, базилик, оливковое масло",
+    "weight": "180 г",
+    "price": 290,
+    "allergens": [
+      "глютен"
+    ],
+    "model_glb": "models/bruschetta.glb",
+    "image": "images/bruschetta.jpg"
+  },
+  {
+    "id": 2,
+    "category": "Закуски",
+    "name": "Сырные палочки",
+    "description": "Моцарелла в хрустящей панировке с соусом",
+    "weight": "150 г",
+    "price": 330,
+    "allergens": [
+      "глютен",
+      "молоко",
+      "яйцо"
+    ],
+    "model_glb": "models/cheesesticks.glb",
+    "image": "images/cheesesticks.jpg"
+  },
+  {
+    "id": 3,
+    "category": "Основные блюда",
+    "name": "Паста карбонара",
+    "description": "Спагетти, бекон, желток, пармезан",
+    "weight": "320 г",
+    "price": 450,
+    "allergens": [
+      "глютен",
+      "яйцо",
+      "молоко"
+    ],
+    "model_glb": "models/carbonara.glb",
+    "image": "images/carbonara.jpg"
+  },
+  {
+    "id": 4,
+    "category": "Основные блюда",
+    "name": "Бургер классический",
+    "description": "Говяжья котлета, сыр, овощи, булочка бриошь",
+    "weight": "280 г",
+    "price": 520,
+    "allergens": [
+      "глютен",
+      "молоко",
+      "кунжут"
+    ],
+    "model_glb": "models/burger.glb",
+    "image": "images/burger.jpg"
+  },
+  {
+    "id": 5,
+    "category": "Основные блюда",
+    "name": "Пицца Маргарита",
+    "description": "Томатный соус, моцарелла, базилик",
+    "weight": "450 г",
+    "price": 490,
+    "allergens": [
+      "глютен",
+      "молоко"
+    ],
+    "model_glb": "models/pizza.glb",
+    "image": "images/pizza.jpg"
+  },
+  {
+    "id": 6,
+    "category": "Десерты",
+    "name": "Чизкейк Нью-Йорк",
+    "description": "Классический сливочный чизкейк с ягодным соусом",
+    "weight": "140 г",
+    "price": 310,
+    "allergens": [
+      "глютен",
+      "молоко",
+      "яйцо"
+    ],
+    "model_glb": "models/cheesecake.glb",
+    "image": "images/cheesecake.jpg"
+  },
+  {
+    "id": 7,
+    "category": "Напитки",
+    "name": "Латте",
+    "description": "Эспрессо с молоком",
+    "weight": "300 мл",
+    "price": 230,
+    "allergens": [
+      "молоко"
+    ],
+    "model_glb": "models/latte.glb",
+    "image": "images/latte.jpg"
+  },
+  {
+    "id": 8,
+    "category": "Напитки",
+    "name": "Домашний лимонад",
+    "description": "Лимон, мята, содовая",
+    "weight": "400 мл",
+    "price": 210,
+    "allergens": [],
+    "model_glb": "models/lemonade.glb",
+    "image": "images/lemonade.jpg"
+  }
+]

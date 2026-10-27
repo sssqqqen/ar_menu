@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AR-меню кафе</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🍽️ Наше меню</h1>
+    <p>Нажмите на блюдо и посмотрите его на своём столе в AR</p>
+  </header>
+
+  <nav id="tabs"></nav>
+  <main id="grid"></main>
+
+  <dialog id="dlg">
+    <button id="close" aria-label="Закрыть">✕</button>
+    <div id="viewer"></div>
+    <div id="info"></div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
